@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+		<title>南京市地方税务局</title>
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript">
+			function clockTime() {
+				var nowTime = new Date();
+				var year = nowTime.getFullYear();
+				var month = nowTime.getMonth() + 1;
+				var day = nowTime.getDate();
+				var hour = nowTime.getHours();
+				var min = nowTime.getMinutes();
+				var sec = nowTime.getSeconds();
+				var week = nowTime.getDay();
+				switch(week) {
+					case 0:
+						week = "星期日";
+						break;
+					case 1:
+						week = "星期一";
+						break;
+					case 2:
+						week = "星期二";
+						break;
+					case 3:
+						week = "星期三";
+						break;
+					case 4:
+						week = "星期四";
+						break;
+					case 5:
+						week = "星期五";
+						break;
+					case 6:
+						week = "星期六";
+						break;
+				}
+				var sayHello;
+				if(hour < 12) {
+					sayHello = "上午"
+				} else {
+					sayHello = "下午"
+				}
+				if(hour < 10) {
+					hour = "0" + hour
+				}
+				if(min < 10) {
+					min = "0" + min
+				}
+				if(sec < 10) {
+					sec = "0" + sec
+				}
+
+				document.getElementById("time").innerHTML = "今天是:" + year + "年" + month + "月" +
+					day + "日 " +hour+":"+min+":"+sec+ week;
+
+			}
+			setInterval(clockTime, 1000);
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<img src="img/南京地税蓝色2_01.jpg" />
+					<img src="img/南京地税蓝色2_02.jpg" />
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column" id="navnav">
+					<div class="row clearfix">
+						<div class="col-md-4 column">
+							<div id="time" class="text-center">
+
+							</div>
+						</div>
+						<div class="col-md-8 column">
+							<div class="tabbable" id="tabs-311401">
+								<ul class="nav nav-tabs">
+									<li>
+										<a href="#">首页</a>
+									</li>
+									<li class="active">
+										<a href="#panel-705455" data-toggle="tab">新闻中心</a>
+									</li>
+									<li>
+										<a href="#panel-91663" data-toggle="tab">政务公开</a>
+									</li>
+									<li>
+										<a href="#panel-705455" data-toggle="tab">纳税服务</a>
+									</li>
+									<li>
+										<a href="#panel-91663" data-toggle="tab">文化园地</a>
+									</li>
+									<li>
+										<a href="#panel-705455" data-toggle="tab">税海导航</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="panel-705455">
+
+										<a href="#">地税信息 |</a>
+										<a href="#">图片新闻 |</a>
+										<a href="#">视频新闻 |</a>
+										<a href="#">税务专版 |</a>
+										<a href="#">电视专栏 |</a>
+										<a href="#">电台专栏 |</a>
+										<a href="#">在线调查 |</a>
+										<a href="#">意见征集 |</a>
+									</div>
+									<div class="tab-pane" id="panel-91663">
+										<a href="#">税务专版 |</a>
+										<a href="#">电视专栏 |</a>
+										<a href="#">电台专栏 |</a>
+										<a href="#">在线调查 |</a>
+										<a href="#">意见征集 |</a>
+										<a href="#">地税信息 |</a>
+										<a href="#">图片新闻 |</a>
+										<a href="#">视频新闻 |</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="row clearfix">
+						<div class="col-md-4 column">
+							<div class="tabbable" id="tabs-668199">
+								<ul class="nav nav-tabs">
+									<li class="active">
+										<a href="#panel-511039" data-toggle="tab">最新通告</a>
+									</li>
+									<li>
+										<a href="#panel-295033" data-toggle="tab">纳税须知</a>
+									</li>
+									<li class="pull-right text-center">
+										<a href="#">>>更多</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="panel-511039">
+										<ul>
+											<li>这是最新通告1</li>
+											<li>这是最新通告2</li>
+											<li>这是最新通告3</li>
+											<li>这是最新通告4</li>
+											<li>这是最新通告5</li>
+											<li>这是最新通告6</li>
+											<li>这是最新通告7</li>
+											<li>这是最新通告8</li>
+										</ul>
+									</div>
+									<div class="tab-pane" id="panel-295033">
+										<ul>
+											<li>这是纳税须知1</li>
+											<li>这是纳税须知2</li>
+											<li>这是纳税须知3</li>
+											<li>这是纳税须知4</li>
+											<li>这是纳税须知5</li>
+											<li>这是纳税须知6</li>
+											<li>这是纳税须知7</li>
+											<li>这是纳税须知8</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8 column">
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<img src="img/南京地税蓝色2_05.jpg" />
+								</div>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-5 column">
+									<img src="img/南京地税蓝色2_07.jpg" />
+								</div>
+
+								<div class="col-md-7 column">
+									<div class="tabbable" id="tabs-408833">
+										<ul class="nav nav-tabs">
+											<li class="active">
+												<a href="#panel-202632" data-toggle="tab">地税信息</a>
+											</li>
+											<li>
+												<a href="#panel-523564" data-toggle="tab">视频新闻</a>
+											</li>
+											<li>
+												<a href="#tupianxinwen" data-toggle="tab">图片新闻</a>
+
+											</li>
+
+										</ul>
+										<div class="tab-content">
+											<div class="tab-pane active" id="panel-202632">
+												<ul class="list-unstyled">
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;地税信息的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;地税信息的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;地税信息的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;地税信息的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;地税信息的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane" id="panel-523564">
+												<ul class="list-unstyled">
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;视频的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;视频的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;视频的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;视频的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;视频的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="tab-pane" id="tupianxinwen">
+												<ul class="list-unstyled">
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;图片的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;图片的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;图片的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;图片的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+													<li>
+														<div class="col-md-12">
+															<a href=""><span class="glyphicon glyphicon-list-alt">
+							</span>&nbsp;&nbsp;&nbsp;图片的一些新闻
+																<p class="text-center pull-right">2017-07-16</p>
+															</a>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<img src="img/南京地税蓝色2.png" />
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="row clearfix">
+						<img src="img/公告公示.png" style="margin-left: 16px;" />
+					</div>
+					<div class="row clearfix">
+						<div class="col-md-8 column">
+							<img src="img/政策法规.png" />
+						</div>
+
+						<div class="col-md-4 column">
+							<p>>发票查询</p>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label for="inputEmail3" class="col-sm-6 control-label">发票代码:</label>
+									<div class="col-sm-6">
+										<input type="email" class="form-control" id="inputEmail3" placeholder="发票代码">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword3" class="col-sm-6 control-label">发票号码:</label>
+									<div class="col-sm-6">
+										<input type="password" class="form-control" id="inputPassword3" placeholder="发票号码">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword" class="col-sm-6 control-label">发票密码:</label>
+									<div class="col-sm-6">
+										<input type="password" class="form-control" id="inputPassword3" placeholder="发票密码">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-6 col-sm-6">
+										<button type="submit" class="btn btn-default">登陆</button>
+										<button type="reset" class="btn btn-default">重置</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="row clearfix">
+						<div class="col-md-9 column">
+							<div class="row clearfix">
+								<div class="col-md-5 column">
+									<div class="tabbable col-md-5" id="tabs-266382">
+										<ul class="nav nav-pills nav-stacked">
+											<li class="active">
+												<a href="#panel-933826" data-toggle="tab">信息公开制度</a>
+											</li>
+											<li>
+												<a href="#panel-165078" data-toggle="tab">信息公开指南</a>
+											</li>
+											<li>
+												<a href="#panel-165079" data-toggle="tab">信息公开年报</a>
+											</li>
+											<li>
+												<a href="#panel-165091" data-toggle="tab">信息公开目录</a>
+											</li>
+											<li>
+												<a href="#panel-165092" data-toggle="tab">权利阳光运行</a>
+											</li>
+											<li>
+												<a href="#panel-165093" data-toggle="tab">依法申请公开</a>
+											</li>
+										</ul>
+
+									</div>
+									<div class="tab-content col-md-7">
+										<div class="tab-pane active" id="panel-933826">
+											<ul>
+												<li>信息公开制度</li>
+												<li>信息公开制度</li>
+												<li>信息公开制度</li>
+												<li>信息公开制度</li>
+												<li>信息公开制度</li>
+												<li>信息公开制度</li>
+												<li>信息公开制度</li>
+											</ul>
+										</div>
+										<div class="tab-pane" id="panel-165078">
+											<ul>
+												<li>信息公开指南</li>
+												<li>信息公开指南</li>
+												<li>信息公开指南</li>
+												<li>信息公开指南</li>
+												<li>信息公开指南</li>
+												<li>信息公开指南</li>
+												<li>信息公开指南</li>
+											</ul>
+										</div>
+										<div class="tab-pane" id="panel-165079">
+											<ul>
+												<li>信息公开年报</li>
+												<li>信息公开年报</li>
+												<li>信息公开年报</li>
+												<li>信息公开年报</li>
+												<li>信息公开年报</li>
+												<li>信息公开年报</li>
+												<li>信息公开年报</li>
+											</ul>
+										</div>
+										<div class="tab-pane" id="panel-165091">
+											<ul>
+												<li>信息公开目录</li>
+												<li>信息公开目录</li>
+												<li>信息公开目录</li>
+												<li>信息公开目录</li>
+												<li>信息公开目录</li>
+												<li>信息公开目录</li>
+												<li>信息公开目录</li>
+											</ul>
+										</div>
+										<div class="tab-pane" id="panel-165092">
+											<ul>
+												<li>权利阳光运行</li>
+												<li>权利阳光运行</li>
+												<li>权利阳光运行</li>
+												<li>权利阳光运行</li>
+												<li>权利阳光运行</li>
+												<li>权利阳光运行</li>
+												<li>权利阳光运行</li>
+												<li>权利阳光运行</li>
+											</ul>
+										</div>
+										<div class="tab-pane" id="panel-165093">
+											<ul>
+												<li>依法申请公开</li>
+												<li>依法申请公开</li>
+												<li>依法申请公开</li>
+												<li>依法申请公开</li>
+												<li>依法申请公开</li>
+												<li>依法申请公开</li>
+												<li>依法申请公开</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-md-7 column">
+									<div class="row clearfix">
+										<div class="col-md-12 column">
+											<div class="tabbable" id="tabs-88308">
+												<ul class="nav nav-tabs">
+													<li class="active">
+														<a href="#panel-243152" data-toggle="tab">党群之窗</a>
+													</li>
+													<li>
+														<a href="#panel-607478" data-toggle="tab">党建信息</a>
+													</li>
+													<li class="pull-right text-center">
+														<a href="#">>>更多</a>
+													</li>
+												</ul>
+												<div class="tab-content">
+													<div class="tab-pane active" id="panel-243152">
+														<ul class="list-unstyled">
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党群之窗的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党群之窗的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党群之窗的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党群之窗的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党群之窗的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<div class="tab-pane" id="panel-607478">
+														<ul class="list-unstyled">
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;党建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row clearfix">
+										<div class="col-md-12 column">
+											<div class="tabbable" id="tabs-437181">
+												<ul class="nav nav-tabs">
+													<li class="active">
+														<a href="#panel-168094" data-toggle="tab">文明创建</a>
+													</li>
+													<li>
+														<a href="#panel-457862" data-toggle="tab">创建信息</a>
+													</li>
+													<li>
+														<a href="#panel-457863" data-toggle="tab">税务明星</a>
+													</li>
+												</ul>
+												<div class="tab-content">
+													<div class="tab-pane active" id="panel-168094">
+														<ul class="list-unstyled">
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;文明创建的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;文明创建的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;文明创建的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;文明创建的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<div class="tab-pane" id="panel-457862">
+														<ul class="list-unstyled">
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;创建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;创建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;创建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;创建信息的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<div class="tab-pane" id="panel-457863">
+														<ul class="list-unstyled">
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;税务明星的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;税务明星的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;税务明星的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+															<li>
+																<div class="col-md-12">
+																	<a href=""><span class="glyphicon glyphicon-info-sign">
+							</span>&nbsp;&nbsp;&nbsp;税务明星的一些新闻
+																		<p class="text-center pull-right">[2017-07-16]</p>
+																	</a>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<img src="img/促进发展.png" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 column">
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<img src="img/咨询中心.png" />
+								</div>
+							</div>
+							<div class="row clearfix">
+								<div class="col-md-12 column">
+									<b><p>对网站改版的意见：</p></b>
+									<p>你认为本站提供的网上办事服务如何？</p>
+									<label class="radio-inline"> &nbsp;&nbsp;
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 十分了解
+</label>
+									<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 不太了解
+</label>
+									<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 希望增加新项目
+</label>
+									<div class="form-group">
+										<div class="">
+											<button type="submit" class="btn btn-default">登陆</button>
+											<button type="reset" class="btn btn-default pull-right">查看</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-8 column">
+					<img src="img/网站导航.png"/>
+				</div>
+				<div class="col-md-4 column">
+				
+						<img src="img/邮箱登陆.png"/>
+					
+					<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="firstname" class="col-sm-4 control-label">用户名：</label>
+    <div class="col-sm-5 ">
+      <input type="text" class="form-control" id="firstname" placeholder="用户名">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="lastname" class="col-sm-4 control-label">密码：</label>
+    <div class="col-sm-5">
+      <input type="password" class="form-control" id="lastname" placeholder="密码">
+    </div>
+  </div>
+  <div class="form-group">
+    
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">登录</button>
+      <button type="reset" class="btn btn-default">重置</button>
+    </div>
+  </div>
+</form>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<select>
+  <option value="volvo">----政府机构网站----</option>
+  <option value="volvo">----各级地税网站----</option>
+  
+</select>
+<select>
+  <option value="volvo">----各级地税网站----</option>
+  <option value="volvo">----各级县（市）局地税网站----</option>
+  
+</select>
+<select>
+  <option value="volvo">----各级县（市）局地税网站----</option>
+  <option value="volvo">----税务报刊网站----</option>
+  
+</select>
+<select>
+  <option value="volvo">----税务报刊网站----</option>
+ <option value="volvo">----新闻媒体网站----</option>
+  
+</select>
+<select>
+  <option value="volvo">----新闻媒体网站----</option>
+  <option value="volvo">----政府机构网站----</option>
+  
+</select>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<img src="img/导航.png"/>
+				</div>
+			</div>
+			
+		</div>
+
+		<!--footer-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-4 col-md-5 text-center">
+						<p>
+							<b>南京市地方税务局  版权所有  苏ICP备05012554号</b><br />
+							<p>地址：南京市常府街六号  邮编：210002  咨询电话：025-12366</p><br />
+							<p>Copyright @1999-2009 Nanjing Local Tax. ALL Rights Reserved</p>
+						</p>
+						
+					</div>
+					<div class="col-md-3">
+							
+							<img src="img/南京地税蓝色2_45.jpg" class="pull-left"/>
+						</div>
+				</div>
+			</div>
+
+		</footer>
+		<!--footer-->
+
+		<script src="scripts/jquery.min.js"></script>
+		<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+		<!--<script src="scripts/Chart.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="scripts/script.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+
+</html>

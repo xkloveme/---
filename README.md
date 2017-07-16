@@ -1,4 +1,4 @@
-# ---
+# 南京税务局
 南京税务局的一个首页项目
 >由于时间较为紧张，和设计图存在一定差距但也基本实现相关功能
 - 1.依照设计图布局进行布局
@@ -7,5 +7,5 @@
 - 4.这并非只是一张静态页面
 - 5.更多功能，敬请期待。。。
 *****
-## 项目主页为[https://github.com/xkloveme/---](https://github.com/xkloveme/---)
-## 项目演示地址为：[https://xkloveme.github.io/---](https://xkloveme.github.io/---)
+## 项目主页为[https://github.com/xkloveme/nanjing](https://github.com/xkloveme/nanjing)
+## 项目演示地址为：[https://xkloveme.github.io/nanjing](https://xkloveme.github.io/nanjing)
